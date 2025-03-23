@@ -1,0 +1,35 @@
+@model IEnumerable<ProjectControlling.Models.Projects>
+
+@{
+    ViewData["Title"] = "Projects list";
+}
+
+<h1>Projects list</h1>
+
+<table class="table">
+    <thread>
+        <tr>
+            <th>Project Name</th>
+            <th>Developer</th>
+            <th>Customer</th>
+            <th>Project Lead</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Priority</th>
+        </tr>
+    </thread>
+    <tbody>
+        @foreach (var project in Model)
+        {
+            <tr>
+                <td>@project.ProjectName</td>
+                <td>@project.ProjectDeveloperCompany</td>
+                <td>@project.ProjectCustomerCompany</td>
+                <td>@project.ProjectLeaderId</td>
+                <td>@project.ProjectStartDate.ToShortDateString()</td>
+                <td>@project.ProjectEndDate.ToShortDateString()</td>
+                <td>@project.ProjectPriority</td>
+            </tr>
+        }
+    </tbody>
+</table>
