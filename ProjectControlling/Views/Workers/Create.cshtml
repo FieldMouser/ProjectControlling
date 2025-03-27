@@ -4,3 +4,25 @@
     ViewData["Title"] = "Add worker";
 }
 
+<div class="container">
+    <h2>Add worker</h2>
+    <form asp-action="Create" method="post">
+        <div>
+            <label asp-for="WorkerName" class="form-label"></label>
+            <input asp-for="WorkerName" class="form-control"/>
+        </div>
+        <div>
+            <label asp-for="WorkerLastName" class="form-label"></label>
+            <input asp-for="WorkerLastName" class="form-control"/>
+        </div>
+        <div>
+            <label asp-for="WorkerMiddleName" class="form-label"></label>
+            <input asp-for="WorkerMiddleName" class="form-control"/>
+        </div>
+        <div>
+            <label asp-for="WorkerEmail" class="form-label"></label>
+            <input asp-for="WorkerEmail" class="form-control"/>
+        </div>
+        <button type="submit" class="btn btn-primary">Add worker</button>
+    </form>
+</div>

@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/employeeSelect.js",
+      "PackagePath": "staticwebassets/js/employeeSelect.js"
+    },
+    {
+      "Id": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/fileUploader.js",
+      "PackagePath": "staticwebassets/js/fileUploader.js"
+    },
+    {
+      "Id": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/projectWizard.js",
+      "PackagePath": "staticwebassets/js/projectWizard.js"
+    },
+    {
       "Id": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
@@ -255,6 +267,10 @@
     {
       "Id": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/lib/jquery/dist/jquery.slim.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
+      "PackagePath": "staticwebassets/uploads/2/Резюме.pdf"
     },
     {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.ProjectControlling.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

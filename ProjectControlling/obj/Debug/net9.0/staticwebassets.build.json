@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GpLbusfFWkxzDXyA3dQkA9SETIx1XxIgFUYuXqdm1X0=",
+  "Hash": "xhpd84Kl3WNcifDJZlZ1x7uO68FHVYYFr7vjPcbSJ14=",
   "Source": "ProjectControlling",
   "BasePath": "_content/ProjectControlling",
   "Mode": "Default",
@@ -416,6 +416,27 @@
       "OriginalItemSpec": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
+      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/dwxfhjp4g8-rjo34djot0.gz",
+      "SourceId": "ProjectControlling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ProjectControlling",
+      "RelativePath": "js/fileUploader#[.{fingerprint=rjo34djot0}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/fileUploader.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "l9wuqscp5f",
+      "Integrity": "J7cL3iBrp+OHDXFfWT8dLCaN/8dFnTRu2OME0ZoViho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/fileUploader.js"
+    },
+    {
       "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/e89px7femd-nvvlpmu67g.gz",
       "SourceId": "ProjectControlling",
       "SourceType": "Discovered",
@@ -435,6 +456,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/en2jpokbh2-4ovuqrktat.gz",
+      "SourceId": "ProjectControlling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ProjectControlling",
+      "RelativePath": "js/projectWizard#[.{fingerprint=4ovuqrktat}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/projectWizard.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z8oqwr0h0w",
+      "Integrity": "Q6mIJjuGtAA7Ti5yYJ9n2Ct/WrLadvjlSSUI49DJdEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/projectWizard.js"
     },
     {
       "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/ephme0k5fu-iovd86k7lj.gz",
@@ -962,6 +1004,27 @@
       "OriginalItemSpec": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
+      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/oqwwgx7j4u-pmka3fx2gi.gz",
+      "SourceId": "ProjectControlling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ProjectControlling",
+      "RelativePath": "js/employeeSelect#[.{fingerprint=pmka3fx2gi}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/employeeSelect.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u3u126tlre",
+      "Integrity": "Vod4T/gQ73nBrfafpeGitygahtASAWTX5NhDDyUshuY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/employeeSelect.js"
+    },
+    {
       "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/pvwma3l8pd-ausgxo2sd3.gz",
       "SourceId": "ProjectControlling",
       "SourceType": "Discovered",
@@ -1443,6 +1506,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/employeeSelect.js",
+      "SourceId": "ProjectControlling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/",
+      "BasePath": "_content/ProjectControlling",
+      "RelativePath": "js/employeeSelect#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pmka3fx2gi",
+      "Integrity": "8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/employeeSelect.js"
+    },
+    {
+      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/fileUploader.js",
+      "SourceId": "ProjectControlling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/",
+      "BasePath": "_content/ProjectControlling",
+      "RelativePath": "js/fileUploader#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rjo34djot0",
+      "Integrity": "+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/fileUploader.js"
+    },
+    {
+      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/projectWizard.js",
+      "SourceId": "ProjectControlling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/",
+      "BasePath": "_content/ProjectControlling",
+      "RelativePath": "js/projectWizard#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ovuqrktat",
+      "Integrity": "1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/projectWizard.js"
     },
     {
       "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/site.js",
@@ -2724,6 +2850,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
+      "SourceId": "ProjectControlling",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/",
+      "BasePath": "_content/ProjectControlling",
+      "RelativePath": "uploads/2/Резюме#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mb2m0d4amm",
+      "Integrity": "vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/2/Резюме.pdf"
     }
   ],
   "Endpoints": [
@@ -3320,6 +3467,900 @@
         {
           "Name": "integrity",
           "Value": "sha256-RvZiU7N9wIvFBRUw5m2hD/ucz7CYe+7tCebSzxwrABk="
+        }
+      ]
+    },
+    {
+      "Route": "js/employeeSelect.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/oqwwgx7j4u-pmka3fx2gi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002066115702"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "483"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vod4T/gQ73nBrfafpeGitygahtASAWTX5NhDDyUshuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0="
+        }
+      ]
+    },
+    {
+      "Route": "js/employeeSelect.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/employeeSelect.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0="
+        }
+      ]
+    },
+    {
+      "Route": "js/employeeSelect.js.gz",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/oqwwgx7j4u-pmka3fx2gi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vod4T/gQ73nBrfafpeGitygahtASAWTX5NhDDyUshuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vod4T/gQ73nBrfafpeGitygahtASAWTX5NhDDyUshuY="
+        }
+      ]
+    },
+    {
+      "Route": "js/employeeSelect.pmka3fx2gi.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/oqwwgx7j4u-pmka3fx2gi.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002066115702"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "483"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vod4T/gQ73nBrfafpeGitygahtASAWTX5NhDDyUshuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmka3fx2gi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/employeeSelect.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0="
+        }
+      ]
+    },
+    {
+      "Route": "js/employeeSelect.pmka3fx2gi.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/employeeSelect.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmka3fx2gi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/employeeSelect.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZWZIznsgawjFLRvaGzkQvI4w6OxF3mqnG9HZ/NX2J0="
+        }
+      ]
+    },
+    {
+      "Route": "js/employeeSelect.pmka3fx2gi.js.gz",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/oqwwgx7j4u-pmka3fx2gi.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "483"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vod4T/gQ73nBrfafpeGitygahtASAWTX5NhDDyUshuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:29:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmka3fx2gi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/employeeSelect.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vod4T/gQ73nBrfafpeGitygahtASAWTX5NhDDyUshuY="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileUploader.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/dwxfhjp4g8-rjo34djot0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001248439451"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "800"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7cL3iBrp+OHDXFfWT8dLCaN/8dFnTRu2OME0ZoViho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileUploader.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/fileUploader.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileUploader.js.gz",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/dwxfhjp4g8-rjo34djot0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7cL3iBrp+OHDXFfWT8dLCaN/8dFnTRu2OME0ZoViho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J7cL3iBrp+OHDXFfWT8dLCaN/8dFnTRu2OME0ZoViho="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileUploader.rjo34djot0.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/dwxfhjp4g8-rjo34djot0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001248439451"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "800"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7cL3iBrp+OHDXFfWT8dLCaN/8dFnTRu2OME0ZoViho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rjo34djot0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/fileUploader.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileUploader.rjo34djot0.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/fileUploader.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rjo34djot0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/fileUploader.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+VhLQPGQay2eordnlS+FumtakgDOTlxZVfJcUmV820c="
+        }
+      ]
+    },
+    {
+      "Route": "js/fileUploader.rjo34djot0.js.gz",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/dwxfhjp4g8-rjo34djot0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J7cL3iBrp+OHDXFfWT8dLCaN/8dFnTRu2OME0ZoViho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rjo34djot0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/fileUploader.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J7cL3iBrp+OHDXFfWT8dLCaN/8dFnTRu2OME0ZoViho="
+        }
+      ]
+    },
+    {
+      "Route": "js/projectWizard.4ovuqrktat.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/en2jpokbh2-4ovuqrktat.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002049180328"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "487"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q6mIJjuGtAA7Ti5yYJ9n2Ct/WrLadvjlSSUI49DJdEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ovuqrktat"
+        },
+        {
+          "Name": "label",
+          "Value": "js/projectWizard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/projectWizard.4ovuqrktat.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/projectWizard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ovuqrktat"
+        },
+        {
+          "Name": "label",
+          "Value": "js/projectWizard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/projectWizard.4ovuqrktat.js.gz",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/en2jpokbh2-4ovuqrktat.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q6mIJjuGtAA7Ti5yYJ9n2Ct/WrLadvjlSSUI49DJdEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ovuqrktat"
+        },
+        {
+          "Name": "label",
+          "Value": "js/projectWizard.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q6mIJjuGtAA7Ti5yYJ9n2Ct/WrLadvjlSSUI49DJdEM="
+        }
+      ]
+    },
+    {
+      "Route": "js/projectWizard.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/en2jpokbh2-4ovuqrktat.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002049180328"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "487"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q6mIJjuGtAA7Ti5yYJ9n2Ct/WrLadvjlSSUI49DJdEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/projectWizard.js",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/js/projectWizard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1108"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1CF4FbYhjxp3tHS1ZPEU0i28u9DN+H100V+4hTIohSQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/projectWizard.js.gz",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/en2jpokbh2-4ovuqrktat.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "487"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q6mIJjuGtAA7Ti5yYJ9n2Ct/WrLadvjlSSUI49DJdEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:31:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q6mIJjuGtAA7Ti5yYJ9n2Ct/WrLadvjlSSUI49DJdEM="
         }
       ]
     },
@@ -21878,6 +22919,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-o6CI6aRplf2ekktRZNfva+bgpMDLTANkYWhNIAp2NHM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2/Резюме.mb2m0d4amm.pdf",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mb2m0d4amm"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/2/Резюме.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/2/Резюме.pdf",
+      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 06:55:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag="
         }
       ]
     }

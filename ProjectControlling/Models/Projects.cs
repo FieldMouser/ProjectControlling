@@ -21,4 +21,5 @@ public class Projects
     public int ProjectPriority { get; set; }
     
     public ICollection<ProjectWorkers> ProjectWorkers { get; set; } = new List<ProjectWorkers>();
+    public ICollection<ProjectDocument> ProjectDocuments { get; set; } = new List<ProjectDocument>();
 }

@@ -220,3 +220,6 @@
 /home/field-note/Документы/С#/ProjectControlling/ProjectControlling/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/field-note/Документы/С#/ProjectControlling/ProjectControlling/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/ProjectControlling.sourcelink.json
+/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/oqwwgx7j4u-pmka3fx2gi.gz
+/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/dwxfhjp4g8-rjo34djot0.gz
+/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/obj/Debug/net9.0/compressed/en2jpokbh2-4ovuqrktat.gz

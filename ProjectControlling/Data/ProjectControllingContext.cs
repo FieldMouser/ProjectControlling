@@ -10,6 +10,7 @@ public class ProjectControllingContext : DbContext
     public DbSet<Projects> Projects { get; set; } = null!;
     public DbSet<Workers> Workers { get; set; } = null!;
     public DbSet<ProjectWorkers> ProjectWorkers { get; set; } = null!;
+    public DbSet<ProjectDocument> ProjectDocuments { get; set; }
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

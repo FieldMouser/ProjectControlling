@@ -7,7 +7,7 @@
 <h1>Projects list</h1>
 
 <table class="table">
-    <thread>
+    <thead>
         <tr>
             <th>Project Name</th>
             <th>Developer</th>
@@ -16,8 +16,9 @@
             <th>Start Date</th>
             <th>End Date</th>
             <th>Priority</th>
+            <th>Actions</th>
         </tr>
-    </thread>
+    </thead>
     <tbody>
         @foreach (var project in Model)
         {
@@ -25,11 +26,57 @@
                 <td>@project.ProjectName</td>
                 <td>@project.ProjectDeveloperCompany</td>
                 <td>@project.ProjectCustomerCompany</td>
-                <td>@project.ProjectLeaderId</td>
+                <td>
+                    @if (project.ProjectWorkers.Any(pw => pw.WorkerId == project.ProjectLeaderId))
+                    {
+                        var leader = project.ProjectWorkers.First(pw => pw.WorkerId == project.ProjectLeaderId).Worker;
+                        @($"{leader.WorkerName} {leader.WorkerLastName}")
+                    }
+                </td>
                 <td>@project.ProjectStartDate.ToShortDateString()</td>
                 <td>@project.ProjectEndDate.ToShortDateString()</td>
                 <td>@project.ProjectPriority</td>
+                <td>
+                    <a href="#" class="btn btn-info details-btn" data-id="@project.ProjectId">Details</a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+
+<!-- Modal for Project Details -->
+<div class="modal fade" id="projectDetailsModal" tabindex="-1" role="dialog" aria-labelledby="projectDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="projectDetailsModalLabel">Project Details</h5>
+            </div>
+            <div class="modal-body">
+                <div id="projectDetailsContent">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('.details-btn').click(function(e) {
+                e.preventDefault();
+                var projectId = $(this).data('id');
+                $.ajax({
+                    url: '/Projects/GetProjectDetails/' + projectId,
+                    type: 'GET',
+                    success: function(data) {
+                        $('#projectDetailsContent').html(data);
+                        $('#projectDetailsModal').modal('show');
+                    },
+                    error: function() {
+                        alert('Error loading project details.');
+                    }
+                });
+            });
+        });
+    </script>
+}

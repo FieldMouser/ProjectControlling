@@ -17,6 +17,33 @@ namespace ProjectControlling.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
 
+            modelBuilder.Entity("ProjectControlling.Models.ProjectDocument", b =>
+                {
+                    b.Property<int>("ProjectDocumentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("ProjectId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("UploadDate")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ProjectDocumentId");
+
+                    b.HasIndex("ProjectId");
+
+                    b.ToTable("ProjectDocuments");
+                });
+
             modelBuilder.Entity("ProjectControlling.Models.ProjectWorkers", b =>
                 {
                     b.Property<int>("ProjectId")
@@ -97,6 +124,17 @@ namespace ProjectControlling.Migrations
                     b.ToTable("Workers");
                 });
 
+            modelBuilder.Entity("ProjectControlling.Models.ProjectDocument", b =>
+                {
+                    b.HasOne("ProjectControlling.Models.Projects", "Project")
+                        .WithMany("ProjectDocuments")
+                        .HasForeignKey("ProjectId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Project");
+                });
+
             modelBuilder.Entity("ProjectControlling.Models.ProjectWorkers", b =>
                 {
                     b.HasOne("ProjectControlling.Models.Projects", "Project")
@@ -118,6 +156,8 @@ namespace ProjectControlling.Migrations
 
             modelBuilder.Entity("ProjectControlling.Models.Projects", b =>
                 {
+                    b.Navigation("ProjectDocuments");
+
                     b.Navigation("ProjectWorkers");
                 });
 
