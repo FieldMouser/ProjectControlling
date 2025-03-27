@@ -1,0 +1,41 @@
+@model ProjectControlling.Models.Workers
+
+@{
+    ViewData["Title"] = "Edit Worker";
+}
+
+<h1>Edit Worker</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="WorkerId" />
+            <div class="form-group">
+                <label asp-for="WorkerName" class="control-label"></label>
+                <input asp-for="WorkerName" class="form-control" />
+                <span asp-validation-for="WorkerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WorkerLastName" class="control-label"></label>
+                <input asp-for="WorkerLastName" class="form-control" />
+                <span asp-validation-for="WorkerLastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WorkerMiddleName" class="control-label"></label>
+                <input asp-for="WorkerMiddleName" class="form-control" />
+                <span asp-validation-for="WorkerMiddleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WorkerEmail" class="control-label"></label>
+                <input asp-for="WorkerEmail" class="form-control" />
+                <span asp-validation-for="WorkerEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -269,10 +269,6 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {
-      "Id": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
-      "PackagePath": "staticwebassets/uploads/2/Резюме.pdf"
-    },
-    {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.ProjectControlling.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

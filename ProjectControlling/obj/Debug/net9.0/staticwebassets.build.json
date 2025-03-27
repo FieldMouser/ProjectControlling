@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xhpd84Kl3WNcifDJZlZ1x7uO68FHVYYFr7vjPcbSJ14=",
+  "Hash": "ar7eQCJG8phiUZffb89ufTU66NG0MmDsCkNHlQWMEg0=",
   "Source": "ProjectControlling",
   "BasePath": "_content/ProjectControlling",
   "Mode": "Default",
@@ -2850,27 +2850,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
-    },
-    {
-      "Identity": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
-      "SourceId": "ProjectControlling",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/",
-      "BasePath": "_content/ProjectControlling",
-      "RelativePath": "uploads/2/Резюме#[.{fingerprint}]?.pdf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mb2m0d4amm",
-      "Integrity": "vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/uploads/2/Резюме.pdf"
     }
   ],
   "Endpoints": [
@@ -22919,88 +22898,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-o6CI6aRplf2ekktRZNfva+bgpMDLTANkYWhNIAp2NHM="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/2/Резюме.mb2m0d4amm.pdf",
-      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50116"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 06:55:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mb2m0d4amm"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/2/Резюме.pdf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/2/Резюме.pdf",
-      "AssetFile": "/home/field-note/Документы/С#/ProjectControlling/ProjectControlling/wwwroot/uploads/2/Резюме.pdf",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "50116"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/pdf"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 06:55:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vjY9XwHw2IyYBovJdagTc5BaMYAtv805nm24ki2dCag="
         }
       ]
     }

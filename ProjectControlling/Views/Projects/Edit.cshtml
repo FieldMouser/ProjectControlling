@@ -1,0 +1,119 @@
+@model ProjectControlling.Models.Projects
+
+@{
+    ViewData["Title"] = "Edit Project";
+}
+
+<div class="container">
+    <h2>Edit Project</h2>
+    <hr />
+    
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="ProjectId" />
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <div class="form-group">
+                    <label asp-for="ProjectName" class="control-label">Project Name</label>
+                    <input asp-for="ProjectName" class="form-control" />
+                    <span asp-validation-for="ProjectName" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="ProjectDeveloperCompany" class="control-label">Developer Company</label>
+                    <input asp-for="ProjectDeveloperCompany" class="form-control" />
+                    <span asp-validation-for="ProjectDeveloperCompany" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="ProjectCustomerCompany" class="control-label">Customer Company</label>
+                    <input asp-for="ProjectCustomerCompany" class="form-control" />
+                    <span asp-validation-for="ProjectCustomerCompany" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="ProjectStartDate" class="control-label">Start Date</label>
+                    <input asp-for="ProjectStartDate" type="date" class="form-control" />
+                    <span asp-validation-for="ProjectStartDate" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="ProjectEndDate" class="control-label">End Date</label>
+                    <input asp-for="ProjectEndDate" type="date" class="form-control" />
+                    <span asp-validation-for="ProjectEndDate" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="ProjectPriority" class="control-label">Priority</label>
+                    <input asp-for="ProjectPriority" class="form-control"/>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label">Project Leader</label>
+                    <select asp-for="ProjectLeaderId" class="form-control">
+                        <option value="">-- Select Leader --</option>
+                        @foreach (var worker in ViewBag.Workers)
+                        {
+                            <option value="@worker.WorkerId" 
+                                    selected="@(worker.WorkerId == Model.ProjectLeaderId)">
+                                @worker.WorkerName @worker.WorkerLastName
+                            </option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label">Assigned Workers</label>
+                    <select name="assignedWorkerIds" class="form-control" multiple style="height: 200px;">
+                        @foreach (var worker in ViewBag.Workers)
+                        {
+                            <option value="@worker.WorkerId" 
+                                    selected="@(Model.ProjectWorkers?.Any(pw => pw.WorkerId == worker.WorkerId) ?? false)">
+                                @worker.WorkerName @worker.WorkerLastName (@worker.WorkerEmail)
+                            </option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="form-group mt-3">
+            <input type="submit" value="Save Changes" class="btn btn-primary" />
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        $(document).ready(function() {
+            $('input[type="date"]').each(function() {
+                if (!$(this).val()) {
+                    var today = new Date().toISOString().split('T')[0];
+                    $(this).val(today);
+                }
+            });
+            
+            $('select[multiple]').select2({
+                placeholder: "Select workers",
+                allowClear: true
+            });
+        });
+    </script>
+    
+}

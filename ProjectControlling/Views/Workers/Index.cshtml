@@ -1,19 +1,44 @@
-@page
-@model ProjectControlling.Views.Workers.Index
+@model IEnumerable<ProjectControlling.Models.Workers>
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Workers List";
 }
 
-<!DOCTYPE html>
+<h1>Workers List</h1>
 
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
-    <h1>ИНДЕКС</h1>
-</div>
-</body>
-</html>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Middle Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.WorkerName)</td>
+            <td>@Html.DisplayFor(modelItem => item.WorkerLastName)</td>
+            <td>@Html.DisplayFor(modelItem => item.WorkerMiddleName)</td>
+            <td>@Html.DisplayFor(modelItem => item.WorkerEmail)</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.WorkerId" class="btn btn-warning">Edit</a>
+                <form asp-action="Delete" method="post">
+                    <input type="hidden" name="id" value="@item.WorkerId"/>
+                    <button type="submit" class="btn btn-danger"
+                            onclick="return confirm('Are you sure you want to delete this worker?');">
+                        Delete
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

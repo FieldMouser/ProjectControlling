@@ -95,23 +95,23 @@
 
         <div id="step2" class="step" style="display: none;">
             <div class="form-group">
-                <label>Руководитель проекта</label>
+                <label>Project lead</label>
                 <select id="leaderSelect" name="ProjectLeaderId" class="form-control select2-leader" required></select>
             </div>
         </div>
 
         <div id="step3" class="step" style="display: none;">
             <div class="form-group">
-                <label>Исполнители</label>
+                <label>Workers</label>
                 <select id="workersSelect" name="assignedWorkerIds" class="form-control select2-workers" multiple required></select>
             </div>
         </div>
 
         <div id="step4" class="step" style="display: none;">
             <div class="form-group">
-                <label>Документы проекта</label>
+                <label>Project Docs</label>
                 <div id="dropZone" class="drop-zone">
-                    <span>Перетащите файлы сюда или кликните</span>
+                    <span>Drag files here of click</span>
                     <input type="file" name="projectFiles" id="projectFiles" multiple style="display: none;">
                 </div>
                 <div id="fileList" class="file-list mt-2"></div>
@@ -120,9 +120,9 @@
         
 
         <div class="mt-3">
-            <button type="button" id="prevBtn" class="btn btn-secondary">Назад</button>
-            <button type="button" id="nextBtn" class="btn btn-primary">Далее</button>
-            <button type="submit" id="submitBtn" class="btn btn-success" style="display: none;">Добавить проект</button>
+            <button type="button" id="prevBtn" class="btn btn-secondary">Back</button>
+            <button type="button" id="nextBtn" class="btn btn-primary">Next</button>
+            <button type="submit" id="submitBtn" class="btn btn-success" style="display: none;">Add project</button>
         </div>
     </form>
 </div>

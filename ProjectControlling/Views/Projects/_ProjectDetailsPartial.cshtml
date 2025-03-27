@@ -1,4 +1,5 @@
 @model ProjectControlling.Models.Projects
+@Html.AntiForgeryToken()
 
 <div class="container">
     <h2>@Model.ProjectName</h2>
@@ -31,7 +32,14 @@
             <ul class="list-unstyled">
                 @foreach (var projectWorker in Model.ProjectWorkers)
                 {
-                    <li>@projectWorker.Worker.WorkerName @projectWorker.Worker.WorkerLastName (@projectWorker.Worker.WorkerEmail)</li>
+                    <li>
+                        @projectWorker.Worker.WorkerName @projectWorker.Worker.WorkerLastName
+                        <button class="btn btn-danger btn-sm remove-worker-btn"
+                                data-project-id="@Model.ProjectId"
+                                data-worker-id="@projectWorker.WorkerId">
+                            Remove
+                        </button>
+                    </li>
                 }
             </ul>
         </div>

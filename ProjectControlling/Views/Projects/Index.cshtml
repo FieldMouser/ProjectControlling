@@ -1,21 +1,80 @@
 @model IEnumerable<ProjectControlling.Models.Projects>
 
 @{
-    ViewData["Title"] = "Projects list";
+    ViewData["Title"] = "Projects List";
 }
 
-<h1>Projects list</h1>
+<h1>Projects List</h1>
 
-<table class="table">
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-filter"></i> Filters
+    </div>
+    <div class="card-body">
+        <form method="get">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Search</label>
+                        <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="form-control" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Priority</label>
+                        <input type="number" name="priorityFilter" class="form-control" 
+                               placeholder="Enter priority number" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Start Date From</label>
+                        <input type="date" name="startDateFrom" class="form-control" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <label>Start Date To</label>
+                        <input type="date" name="startDateTo" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
+            <a asp-action="Index" class="btn btn-secondary">Reset</a>
+        </form>
+    </div>
+</div>
+
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
-            <th>Project Name</th>
+            <th>
+                <a asp-action="Index" 
+                   asp-route-sortOrder="@ViewData["NameSortParm"]"
+                   asp-route-priorityFilter="@Context.Request.Query["priorityFilter"]"
+                   asp-route-searchString="@Context.Request.Query["searchString"]">
+                    Project Name
+                </a>
+            </th>
             <th>Developer</th>
             <th>Customer</th>
-            <th>Project Lead</th>
-            <th>Start Date</th>
+            <th>
+                <a asp-action="Index" 
+                   asp-route-sortOrder="@ViewData["StartDateSortParm"]"
+                   asp-route-priorityFilter="@Context.Request.Query["priorityFilter"]"
+                   asp-route-searchString="@Context.Request.Query["searchString"]">
+                    Start Date
+                </a>
+            </th>
             <th>End Date</th>
-            <th>Priority</th>
+            <th>
+                <a asp-action="Index" 
+                   asp-route-sortOrder="@ViewData["PrioritySortParm"]"
+                   asp-route-priorityFilter="@Context.Request.Query["priorityFilter"]"
+                   asp-route-searchString="@Context.Request.Query["searchString"]">
+                    Priority
+                </a>
+            </th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -26,57 +85,21 @@
                 <td>@project.ProjectName</td>
                 <td>@project.ProjectDeveloperCompany</td>
                 <td>@project.ProjectCustomerCompany</td>
-                <td>
-                    @if (project.ProjectWorkers.Any(pw => pw.WorkerId == project.ProjectLeaderId))
-                    {
-                        var leader = project.ProjectWorkers.First(pw => pw.WorkerId == project.ProjectLeaderId).Worker;
-                        @($"{leader.WorkerName} {leader.WorkerLastName}")
-                    }
-                </td>
                 <td>@project.ProjectStartDate.ToShortDateString()</td>
                 <td>@project.ProjectEndDate.ToShortDateString()</td>
                 <td>@project.ProjectPriority</td>
                 <td>
-                    <a href="#" class="btn btn-info details-btn" data-id="@project.ProjectId">Details</a>
+                    <a asp-action="Edit" asp-route-id="@project.ProjectId" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@project.ProjectId" class="btn btn-info btn-sm">Details</a>
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@project.ProjectId" />
+                        <button type="submit" class="btn btn-danger btn-sm" 
+                                onclick="return confirm('Are you sure you want to delete this project?');">
+                            Delete
+                        </button>
+                    </form>
                 </td>
             </tr>
         }
     </tbody>
 </table>
-
-<!-- Modal for Project Details -->
-<div class="modal fade" id="projectDetailsModal" tabindex="-1" role="dialog" aria-labelledby="projectDetailsModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="projectDetailsModalLabel">Project Details</h5>
-            </div>
-            <div class="modal-body">
-                <div id="projectDetailsContent">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-@section Scripts {
-    <script>
-        $(document).ready(function() {
-            $('.details-btn').click(function(e) {
-                e.preventDefault();
-                var projectId = $(this).data('id');
-                $.ajax({
-                    url: '/Projects/GetProjectDetails/' + projectId,
-                    type: 'GET',
-                    success: function(data) {
-                        $('#projectDetailsContent').html(data);
-                        $('#projectDetailsModal').modal('show');
-                    },
-                    error: function() {
-                        alert('Error loading project details.');
-                    }
-                });
-            });
-        });
-    </script>
-}
